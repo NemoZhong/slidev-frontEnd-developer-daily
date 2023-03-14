@@ -1,0 +1,59 @@
+:root {
+  --accent: #fc1a20;
+  --darkBackground: #313131;
+  --lightBackground: #f8f8f8;
+  --lightText: #0d0106;
+  --darkText: #c6c6c7;
+  --lightLink: #001955;
+  --darkLink: #eaeaea;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+.title {
+  @apply text-xl font-bold;
+  color: rgb(0, 109, 89);
+}
+
+.dialog {
+  line-height: 30px;
+}
+
+.tips {
+  color: #2b90b6;
+}
+.replace {
+  color: skyblue;
+  font-size: 14px;
+  margin-left: 100px;
+}
+
+.coding {
+  font-size: 26px;
+  margin-top: 100px;
+  color: #2b90b6;
+  font-weight: 700;
+}
+
+.hideRight .right {
+  display: none;
+}
+
+.flying {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  z-index: 999;
+}
+.flying-down {
+  position: absolute;
+  bottom: 50px;
+  right: 60px;
+  z-index: 999;
+}
+
+.play-btn {
+  margin-top: 20px;
+}
