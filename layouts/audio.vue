@@ -8,9 +8,7 @@ defineProps<{ video: string }>();
       <div class="w-full h-[440px]">
         <slot />
         <br />
-        <audio controls src="/assets/And When He Falleth.mp3">
-          <a href="/media/cc0-audio/t-rex-roar.mp3"> Download audio </a>
-        </audio>
+        <audio controls src="/And When He Falleth.mp3"></audio>
         <br />
         <div v-click class="text-[14px] leading-[1.5rem]">
           [Male Voice] That cross you wear around your neck; is it only a
