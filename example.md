@@ -68,7 +68,7 @@ layout: section
 
 ---
 layout: image-right
-image: ./assets/words.jpg
+image: /words.jpg
 ---
 
 
@@ -108,7 +108,7 @@ image: ./assets/words.jpg
 
 ---
 layout: image-left
-image: ./assets/words.jpg
+image: /words.jpg
 ---
 <div>
   <br />
@@ -160,12 +160,12 @@ layout: two-cols
 <div v-click="1">get up & have breakfast</div>
 <br/>
 <div v-click="2">commute to work</div>
-<img v-click="1" class="rounded-full object-cover h-80 w-80 mt-10 border border-secondary-400 z-10" src="/assets/breakfirst.jpg" />
+<img v-click="1" class="rounded-full object-cover h-80 w-80 mt-10 border border-secondary-400 z-10" src="/breakfast.jpg" />
 
 ::right::
 
 
-<img v-click="3" class="" src="/assets/check-emails.webp" />
+<img v-click="3" class="" src="/check-emails.webp" />
 
 
 <br/>
@@ -182,7 +182,7 @@ layout: two-cols
 
 ---
 layout: image-right
-image: ./assets/meeting.jpeg
+image: /meeting.jpeg
 ---
 
 # 9:30 AM
@@ -280,7 +280,7 @@ layout: two-cols
 
 <div v-click="1">
 <h1  class="text-white text-center">10:00 AM</h1>
-<img  class="mt-30 rounded-md" src="/assets/coding.jpeg" />
+<img  class="mt-30 rounded-md" src="/coding.jpeg" />
 </div>
 
 
@@ -338,7 +338,7 @@ Okay, I'll give it a try.
 
 <div class="dialog">
 <div class="flying-down">
-  <img  class="w-80" src="/assets/screen-shot.png" />
+  <img  class="w-80" src="/screen-shot.png" />
 </div>
 <br/>
 <br/>
@@ -370,7 +370,7 @@ An ellipsis won't work because users need to see the results at a glance, and it
 
 ---
 layout: image-left
-image: ./assets/snap.jpg
+image: /snap.jpg
 ---
 # 12:00 PM
 <br />
@@ -460,7 +460,7 @@ example: simple
 
 ---
 layout: image-right
-image: ./assets/wrap-up.jpeg
+image: /wrap-up.jpeg
 ---
 
 #  5:30 PM 
